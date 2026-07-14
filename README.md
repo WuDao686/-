@@ -1,14 +1,19 @@
 这是我的一个个人博客，使用的是GitHub简单部署
 添加文章方式：
-# 1. 创建新文章
-hugo new post/我的文章.md
+# 进入博客目录
+cd 盘符:\hugo\myblog
 
-# 2. 编辑内容（在 content/post/ 下找到 .md 文件编辑）
+# 创建新文章
+盘符:\hugo\hugo.exe new post/文章标题.md
 
-# 3. 提交并推送
+# 编辑 content/post/文章标题.md
+# 把 draft: true 改为 draft: false
+# 在 +++ 下面写正文
+
+# 提交推送
 git add .
 
-git commit -m "新文章：xxx"
+git commit -m "新文章"
 
 git push
 
