@@ -18,3 +18,4 @@ git commit -m "新文章"
 git push
 
 博客模板套用的是hugo
+借助的是此博主主题：https://d-sketon.github.io
