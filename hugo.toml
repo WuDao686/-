@@ -1,5 +1,5 @@
 baseURL = "https://lctnb.top/"
-languageCode = "zh-cn"
+locale = "zh-cn"
 title = "雾之岛"
 
 theme = "hugo-theme-reimu-main"
