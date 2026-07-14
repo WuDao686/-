@@ -1,0 +1,70 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-cn"
+title = "雾之岛"
+
+theme = "hugo-theme-reimu-main"
+
+[params]
+  icon_font = "5204243"
+  avatar = "favicon.ico"
+
+  [params.footer]
+    powered = false
+    count = false
+    busuanzi = false
+    [params.footer.icon]
+      url = false
+
+  [params.icp]
+    icpnumber = "闽ICP备2025121748号"
+    beian = "闽公网安备35082202820160号"
+    recordcode = "35082202820160"
+
+  [params.top]
+    enable = true
+    [params.top.icon]
+      url = "../favicon.ico"
+      rotate = true
+      mask = false
+
+  [[params.menu]]
+    name = "home"
+    url = ""
+    icon = "e762"
+  [[params.menu]]
+    name = "archives"
+    url = "archives"
+    icon = "e8f5"
+  [[params.menu]]
+    name = "about"
+    url = "about"
+    icon = "e8f6"
+  [[params.menu]]
+    name = "friend"
+    url = "friend"
+    icon = "e8f8"
+
+[params.firework]
+  enable = true
+  disable_on_mobile = false
+
+  [params.firework.options]
+    excludeElements = ["a", "button"]
+    [[params.firework.options.particles]]
+      shape = "heart"
+      move = ["emit"]
+      colors = ["#ffd700", "#ffb800", "#ff9500", "#ffcc00"]
+      number = 18
+      duration = [1200, 1800]
+      shapeOptions = { radius = [12, 28], alpha = [0.4, 0.7] }
+    [[params.firework.options.particles]]
+      shape = "circle"
+      move = ["diffuse"]
+      colors = ["#ffd700"]
+      number = 1
+      duration = [1200, 1800]
+      shapeOptions = { radius = 24, alpha = [0.15, 0.4], lineWidth = 4 }
+
+[params.injector]
+  head_end = "<style>#footer-info > div:not(.footer-beian){display:none}#footer{margin-top:-20px}</style>"
+  body_end = "<script>(function(){var o=setupFirework;setupFirework=function(){if(window.firework&&window.firework.registerEntity){window.firework.registerEntity('heart',class extends window.firework.BaseEntity{paint(){var c=this.ctx,r=this.radius;c.beginPath();c.moveTo(0,r*-0.3);c.bezierCurveTo(r*0.5,r*-0.9,r*0.9,r*-0.2,0,r*0.6);c.bezierCurveTo(-r*0.9,r*-0.2,-r*0.5,r*-0.9,0,r*-0.3);c.closePath()}})}o()}})();</script>"
