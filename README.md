@@ -15,6 +15,8 @@ git add .
 
 git commit -m "新文章"
 
+git pull --rebase
+
 git push
 
 博客模板套用的是hugo
