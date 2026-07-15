@@ -1,14 +1,15 @@
 baseURL = "https://lctnb.top/"
 locale = "zh-cn"
 title = "雾之岛"
-author = "雾岛"
-description = "一个在迷雾中拨开的网站"
 
 theme = "hugo-theme-reimu-main"
 
 [params]
   icon_font = "5204243"
   avatar = "favicon.ico"
+  author = "雾岛"
+  description = "一个在迷雾中拨开的网站"
+  subtitle = "一个在迷雾中拨开的网站"
 
   [params.footer]
     powered = false
@@ -34,10 +35,6 @@ theme = "hugo-theme-reimu-main"
     url = ""
     icon = "e762"
   [[params.menu]]
-    name = "archives"
-    url = "archives"
-    icon = "e8f5"
-  [[params.menu]]
     name = "about"
     url = "about"
     icon = "e8f6"
@@ -51,6 +48,12 @@ theme = "hugo-theme-reimu-main"
     bilibili = "https://space.bilibili.com/507649476"
 
   share = ["weixin", "qq"]
+
+  [params.preloader]
+    enable = true
+    [params.preloader.text]
+      zh-CN = "迷雾散开中..."
+      en = "Loading..."
 
 [params.firework]
   enable = true
