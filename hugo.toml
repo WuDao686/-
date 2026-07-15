@@ -1,6 +1,8 @@
 baseURL = "https://lctnb.top/"
 locale = "zh-cn"
 title = "雾之岛"
+author = "雾岛"
+description = "一个在迷雾中拨开的网站"
 
 theme = "hugo-theme-reimu-main"
 
@@ -43,6 +45,12 @@ theme = "hugo-theme-reimu-main"
     name = "friend"
     url = "friend"
     icon = "e8f8"
+
+  [params.social]
+    github = "https://github.com/WuDao686"
+    bilibili = "https://space.bilibili.com/507649476"
+
+  share = ["weixin", "qq"]
 
 [params.firework]
   enable = true
