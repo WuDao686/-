@@ -24,4 +24,4 @@ lastmod: 2026-07-15T00:00:00+08:00
 ## 联系我
 
 - GitHub：[WuDao686](https://github.com/WuDao686)
-- 哔哩哔哩：待补充
+- 哔哩哔哩：[雾岛](https://space.bilibili.com/507649476)
