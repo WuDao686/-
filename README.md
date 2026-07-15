@@ -7,8 +7,17 @@ cd 盘符:\hugo\myblog
 盘符:\hugo\hugo.exe new post/文章标题.md
 
 # 编辑 content/post/文章标题.md
-# 把 draft: true 改为 draft: false
+# 开头按格式写上：
++++
+date = '2026-07-15T22:00:00+08:00'
+draft = false
+title = '文章标题'
+categories = ['分类名']
+tags = ['标签1', '标签2']
++++
 # 在 +++ 下面写正文
+
+正文内容...
 
 # 提交推送
 git add .
