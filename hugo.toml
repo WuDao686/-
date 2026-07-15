@@ -75,17 +75,17 @@ theme = "hugo-theme-reimu-main"
     reactionsEnabled = 1
     inputPosition = "top"
 
-  [params.article_copyright]
-    enable = true
-    [params.article_copyright.content]
-      author = true
-      link = true
-      license = true
-      license_type = "by-nc-sa"
+[params.article_copyright]
+  enable = true
+  [params.article_copyright.content]
+    author = true
+    link = true
+    license = true
+    license_type = "by-nc-sa"
 
-  [params.outdate]
-    enable = true
-    daysAgo = 180
+[params.outdate]
+  enable = true
+  daysAgo = 180
 
 [params.firework]
   enable = true
@@ -109,5 +109,5 @@ theme = "hugo-theme-reimu-main"
       shapeOptions = { radius = 24, alpha = [0.15, 0.4], lineWidth = 4 }
 
 [params.injector]
-  head_end = "<style>#footer-info > div:not(.footer-beian){display:none}#footer{margin-top:-20px}.sidebar-social-icon.icon-github:before,.share-icon.icon-github:before{font-family:iconfont!important;content:\"\\e8c6\"}.sidebar-social-icon.icon-bilibili:before,.share-icon.icon-bilibili:before{font-family:iconfont!important;content:\"\\e6b4\"}.sidebar-social-icon.icon-weixin:before,.share-icon.icon-weixin:before{font-family:iconfont!important;content:\"\\e600\"}.sidebar-social-icon.icon-qq:before,.share-icon.icon-qq:before{font-family:iconfont!important;content:\"\\e882\"}</style>"
+  head_end = "<style>#footer-info > div:not(.footer-beian){display:none}#footer{margin-top:-20px}</style>"
   body_end = "<script>(function(){var o=setupFirework;setupFirework=function(){if(window.firework&&window.firework.registerEntity){window.firework.registerEntity('heart',class extends window.firework.BaseEntity{paint(){var c=this.ctx,r=this.radius;c.beginPath();c.moveTo(0,r*-0.3);c.bezierCurveTo(r*0.5,r*-0.9,r*0.9,r*-0.2,0,r*0.6);c.bezierCurveTo(-r*0.9,r*-0.2,-r*0.5,r*-0.9,0,r*-0.3);c.closePath()}})}o()}})();</script>"
