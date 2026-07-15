@@ -14,22 +14,19 @@
 }
 
 .icon-weixin:before,
-.sidebar-social-icon.icon-weixin:before,
 .share-icon.icon-weixin:before {
   font-family: "iconfont" !important;
   content: "\e600";
 }
 
 .icon-bilibili:before,
-.sidebar-social-icon.icon-bilibili:before,
-.share-icon.icon-bilibili:before {
+.sidebar-social-icon.icon-bilibili:before {
   font-family: "iconfont" !important;
   content: "\e6b4";
 }
 
 .icon-QQ:before,
 .icon-qq:before,
-.sidebar-social-icon.icon-qq:before,
 .share-icon.icon-qq:before {
   font-family: "iconfont" !important;
   content: "\e882";
@@ -37,8 +34,7 @@
 
 .icon-GitHub:before,
 .icon-github:before,
-.sidebar-social-icon.icon-github:before,
-.share-icon.icon-github:before {
+.sidebar-social-icon.icon-github:before {
   font-family: "iconfont" !important;
   content: "\e8c6";
 }
