@@ -412,5 +412,5 @@ docker compose up -d --build
 
 > 文档编写日期：2026-07-15
 > 作者：雾岛
-> 项目地址：https://github.com/WuDao686/ff-lite-fs
+> 项目地址：https://github.com/WuDao686/-feishu-
 > 在线演示：https://fs.lctnb.top
