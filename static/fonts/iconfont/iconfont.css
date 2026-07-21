@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 5204243 */
-  src: url('iconfont.woff2?t=1784107888602') format('woff2'),
-       url('iconfont.woff?t=1784107888602') format('woff'),
-       url('iconfont.ttf?t=1784107888602') format('truetype');
+  src: url('iconfont.woff2?t=1784593289370') format('woff2'),
+       url('iconfont.woff?t=1784593289370') format('woff'),
+       url('iconfont.ttf?t=1784593289370') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,22 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dingyue:before {
+  content: "\e601";
+}
+
+.icon-zidong:before {
+  content: "\e64d";
+}
+
+.icon-taiyang:before {
+  content: "\e635";
+}
+
+.icon-yueliang:before {
+  content: "\e63e";
 }
 
 .icon-weixin:before,
@@ -54,3 +70,25 @@
 .icon-pisa:before {
   content: "\e8f8";
 }
+
+/* 导航栏图标 - 覆盖主题默认 unicode */
+#main-nav-toggle:before {
+  content: "\e8f5";
+}
+
+#nav-rss-link:before {
+  content: "\e601";
+}
+
+#nav-sun-btn:before {
+  content: "\e635";
+}
+
+#nav-moon-btn:before {
+  content: "\e63e";
+}
+
+#nav-circle-half-stroke-btn:before {
+  content: "\e64d";
+}
+
